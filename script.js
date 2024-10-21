@@ -77,3 +77,15 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 });
+
+window.addEventListener('scroll', () => {
+const logo = document.querySelector('.logo');
+const img = document.querySelector('.logo img')
+if (window.scrollY === 0) {
+logo.classList.add('full'); // Add full class when at the top
+img.classList.add('full'); // Add full class when at the top
+} else {
+logo.classList.remove('full'); // Remove it when scrolling down
+img.classList.remove('full'); // Remove it when scrolling down
+}
+});

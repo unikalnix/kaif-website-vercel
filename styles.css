@@ -89,7 +89,7 @@ header .container {
   align-items: center;
 }
 
-.logo{
+/* .logo{
   margin: 10px 0;
   border-radius: 100%;
   overflow: hidden;
@@ -97,6 +97,23 @@ header .container {
 
 .logo img {
   height: 100px;
+} */
+
+.logo {
+  margin: 10px 0;
+  border-radius: 100%;
+  transition: transform 0.3s ease, top 0.3s ease; /* Smooth transition */
+  z-index: 10; /* Ensure it's on top of other content */
+}
+
+.logo img {
+  height: 100px; /* Original height */
+  transition: height 0.3s ease; /* Smooth transition for image */
+}
+
+.logo.full, .logo img.full {
+  height: 290px;
+  margin: 0; /* Remove margins when enlarged */
 }
 
 nav ul {
