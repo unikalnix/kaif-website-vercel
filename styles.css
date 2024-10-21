@@ -8,6 +8,11 @@
   --color-border: #4a4a4a; /* Subtle border color */
 }
 
+::selection{
+  background-color: #C3B59B;
+  color: #8B0000;
+}
+
 /* Scrollbar styling for WebKit browsers (Chrome, Safari, Edge) */
 ::-webkit-scrollbar {
   width: 12px; /* Width of the scrollbar */
@@ -66,7 +71,7 @@ body {
 }
 
 .mt-80 {
-  margin-top: 80px;
+  margin-top: 140px;
 }
 
 /* Header Styles */
@@ -84,8 +89,14 @@ header .container {
   align-items: center;
 }
 
+.logo{
+  margin: 10px 0;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
 .logo img {
-  height: 50px;
+  height: 100px;
 }
 
 nav ul {
@@ -251,7 +262,7 @@ nav ul li a.active {
   text-align: center;
   color: var(--color-secondary);
   margin-bottom: 30px;
-  margin-top: 50px;
+  margin-top: 140px;
 }
 
 .search-filter {
@@ -288,7 +299,7 @@ nav ul li a.active {
   text-align: center;
   color: var(--color-secondary);
   margin-bottom: 30px;
-  margin-top: 50px;
+  margin-top: 130px;
 }
 
 .process-steps {
@@ -365,7 +376,7 @@ nav ul li a.active {
   text-align: center;
   color: var(--color-secondary);
   margin-bottom: 30px;
-  margin-top: 50px;
+  margin-top: 130px;
 }
 
 .contact-content {
@@ -442,11 +453,13 @@ nav ul li a.active {
 
 /* CTA Section */
 #cta {
+  max-width: 100%;
   background-color: var(--color-primary);
   color: var(--color-text);
   text-align: center;
   padding: 50px 0;
   margin: 20px 10px 30px;
+
 }
 
 #cta h2 {
