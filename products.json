@@ -1,0 +1,44 @@
+[
+    {
+      "id": "1",
+      "name": "Premium Cotton T-Shirt",
+      "category": "Apparel",
+      "image": "watch.jpg",
+      "description": "High-quality, comfortable cotton t-shirt perfect for everyday wear."
+    },
+    {
+      "id": "2",
+      "name": "Denim Jeans",
+      "category": "Apparel",
+      "image": "watch.jpg",
+      "description": "Durable and stylish denim jeans suitable for casual and semi-formal occasions."
+    },
+    {
+      "id": "3",
+      "name": "Silk Scarf",
+      "category": "Accessories",
+      "image": "watch.jpg",
+      "description": "Elegant and soft silk scarf to add a touch of sophistication to any outfit."
+    },
+    {
+      "id": "4",
+      "name": "Wool Sweater",
+      "category": "Apparel",
+      "image": "watch.jpg",
+      "description": "Warm and cozy wool sweater perfect for cold weather."
+    },
+    {
+      "id": "5",
+      "name": "Cotton Bed Sheets",
+      "category": "Home Textiles",
+      "image": "watch.jpg",
+      "description": "Soft and breathable cotton bed sheets for a comfortable night's sleep."
+    },
+    {
+      "id": "6",
+      "name": "Leather Handbag",
+      "category": "Accessories",
+      "image": "watch.jpg",
+      "description": "Stylish and durable leather handbag suitable for various occasions."
+    }
+  ]

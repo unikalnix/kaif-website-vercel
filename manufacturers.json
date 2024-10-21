@@ -1,0 +1,44 @@
+[
+    {
+      "id": "1",
+      "name": "Textile Co.",
+      "category": "Apparel",
+      "image": "watch.jpg",
+      "description": "Leading manufacturer of high-quality apparel and textiles."
+    },
+    {
+      "id": "2",
+      "name": "Denim Experts",
+      "category": "Denim",
+      "image": "watch.jpg",
+      "description": "Specialized in producing premium denim products for various brands."
+    },
+    {
+      "id": "3",
+      "name": "Silk Weavers",
+      "category": "Accessories",
+      "image": "watch.jpg",
+      "description": "Artisanal silk weavers creating luxurious accessories and fabrics."
+    },
+    {
+      "id": "4",
+      "name": "Eco Fabrics",
+      "category": "Sustainable Textiles",
+      "image": "watch.jpg",
+      "description": "Focused on producing eco-friendly and sustainable textile solutions."
+    },
+    {
+      "id": "5",
+      "name": "Home Comfort Textiles",
+      "category": "Home Textiles",
+      "image": "watch.jpg",
+      "description": "Specializing in comfortable and durable home textile products."
+    },
+    {
+      "id": "6",
+      "name": "Industrial Fabric Solutions",
+      "category": "Industrial Fabrics",
+      "image": "watch.jpg",
+      "description": "Providing high-performance fabrics for various industrial applications."
+    }
+  ]
